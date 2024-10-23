@@ -18,4 +18,19 @@ public class Movie {
         this.minutes = minutes;
         this.genre = genre;
     }
+    public Integer getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getMinutes() {
+        return minutes;
+    }
+
+    public Genre getGenre() {
+        return genre;
+    }
 }
